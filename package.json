@@ -1,0 +1,17 @@
+{
+  "name": "lighthouse-behind-auth",
+  "version": "1.0.0",
+  "description": "🙈 Codelab for running Lighthouse to test a page behind authentication flow ",
+  "main": "index.js",
+  "repository": "git@github.com:mazipan/lighthouse-behind-auth.git",
+  "author": "mazipan",
+  "license": "MIT",
+	"private": true,
+	"scripts": {
+		"job": "node ./index.js"
+	},
+  "dependencies": {
+    "lighthouse": "^7.0.0",
+    "puppeteer": "^5.5.0"
+  }
+}
